@@ -10,7 +10,8 @@
 
 ## The Solution
 Automatically extract all GA4 event tags, parameters, triggers, and descriptions from GTM into a formatted Google Sheet report. 
-# Potential: You can import the sheet into BigQuery and transform to check your data quality, get alert if tracking is broken, build Looker Studio dashboard for self serv data etc...
+# Potential next steps:
+You can import the sheet into BigQuery to transform and analyze the data, monitor data quality, get alerts if tracking breaks, and even build a self-serve dashboard in Looker Studio
 
 ## ✨ Features
 - 📊 Complete GA4 event documentation
