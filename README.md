@@ -68,6 +68,9 @@ MIT License - feel free to use and modify!
 
 ## 🙏 Support
 If this saved you time, give it a ⭐ and share with other analysts!
+Buy me a coffee: 
+(Swedish users): Swish 0733801686
+🌍 INTERNATIONAL: https://ko-fi.com/chinhjohnson
 
 ---
-*Built by [Your Name] - Digital Analyst tired of manual documentation*
+*Built by Chinh Johnson - Technical Digital Analyst tired of manual documentation*
