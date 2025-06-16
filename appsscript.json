@@ -1,0 +1,14 @@
+{
+  "timeZone": "Stockholm/Sweden",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "TagManager",
+        "version": "v2",
+        "serviceId": "tagmanager"
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}
