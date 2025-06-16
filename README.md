@@ -1,6 +1,6 @@
 # GTM Documentation Automation
 
-🚀 **Generate complete Google Tag Manager documentation in 1 click using Google Apps Script**
+🚀 **Generate complete Google Tag Manager documentation in 1 click by ultilizing Notes function in GTM and using Google Apps Script**
 
 ## The Problem
 - Manual GTM documentation takes hours
@@ -9,33 +9,30 @@
 - You become the documentation machine
 
 ## The Solution
-Automatically extract all GA4 event tags, parameters, triggers, and descriptions from GTM into a formatted Google Sheet report. 
+Automatically extract all GA4 event tags, parameters, triggers, and descriptions into a formatted Google Sheet report ultilizing GTM Notes function.
+
 # Potential next steps:
 You can import the sheet into BigQuery to transform and analyze the data, monitor data quality, get alerts if tracking breaks, and even build a self-serve dashboard in Looker Studio
 
 ## ✨ Features
-- 📊 Complete GA4 event documentation
-- 🔄 Auto-updates parameter descriptions
-- 📝 Tracks event names and descriptions
+- 📊 Complete GA4 event documentation ultilising Notes features in GTM
+- 🔄 Scheduled updates events and parameter descriptions
 - 🎯 Maps triggers to tags
 - 📋 Built-in variable descriptions
 
-## 📸 Screenshots
-![Demo Screenshot](screenshots/demo.png)
-*Generated documentation showing events, parameters, and triggers*
-
-## 🚀 Quick Start
+## 📸 Youtube tutorial
+https://youtu.be/dkCvhEot1tY
 
 ### Prerequisites
 - Google Sheets access
 - Google Tag Manager access
-- GTM Advanced Service enabled
+- Basic understand of Google Tag Manager
 
 ### Installation
 1. **Create new Google Sheet**
 2. **Open Apps Script** (Extensions → Apps Script)
 3. **Copy the code** from `Code.gs`
-4. **Enable GTM API** (Libraries → Add library → Script ID: `1-rr7_ggPwd2PlGkmfeWk3mz_5s6_VngHy8TF4gPJO9LvCfqvihQ0ZPQJ`)
+4. **Enable GTM API** (Services → Add Tag Manager API)
 5. **Save and run** `onOpen()` function
 
 ### Setup
@@ -43,23 +40,6 @@ You can import the sheet into BigQuery to transform and analyze the data, monito
 2. Enter your GTM Account ID, Container ID, and Workspace ID
 3. Click **GTM Reports → Generate GA4 Event Tag Report**
 
-## 📊 Generated Documentation Includes
-- Tag names and triggers
-- Event names with descriptions
-- Parameter mappings
-- Built-in variable descriptions
-- Custom variable notes from GTM
-
-## 🛠️ Advanced Features
-- **Parameters Sheet**: Tracks all parameter values and descriptions
-- **Events Sheet**: Manages event names and descriptions  
-- **Auto-updates**: Syncs changes from GTM to existing documentation
-- **Built-in Variables**: Pre-loaded descriptions for GTM built-in variables
-
-## 📖 Documentation
-- [Complete Setup Guide](setup-guide.md)
-- [Troubleshooting](docs/troubleshooting.md)
-- [Advanced Configuration](docs/advanced.md)
 
 ## 🤝 Contributing
 Found a bug or have a feature request? Please open an issue or submit a pull request!
