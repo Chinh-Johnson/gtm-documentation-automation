@@ -548,6 +548,7 @@ function listGa4EventTagsAndParameters() {
   // Define original header names
   const originalHeaders = [
     'Tag Name',
+    'Tag Status',  // ADDED THIS LINE
     'Trigger',
     'Trigger Type',
     'Event Name',
@@ -668,6 +669,7 @@ function listGa4EventTagsAndParameters() {
         if (tag.type === 'gaawe' && tag.parameter) {
           const tagName = tag.name;
           const tagNotes = tag.notes || ""; // Extract notes from the tag
+          const tagStatus = tag.paused ? 'Paused' : 'Live'; // ADDED THIS LINE
           const firingTriggerIds = tag.firingTriggerId || [];
           
           // Extract event name directly
@@ -842,7 +844,8 @@ function listGa4EventTagsAndParameters() {
               
               // Add row with all columns including descriptions
               allDataRows.push([
-                tagName, 
+                tagName,
+                tagStatus,  // ADDED THIS LINE
                 combinedTriggerNames, 
                 combinedTriggerTypes, 
                 eventName, 
@@ -890,7 +893,8 @@ function listGa4EventTagsAndParameters() {
             }
             
             allDataRows.push([
-              tagName, 
+              tagName,
+              tagStatus,  // ADDED THIS LINE
               combinedTriggerNames, 
               combinedTriggerTypes, 
               eventName, 
