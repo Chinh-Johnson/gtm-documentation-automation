@@ -2,7 +2,7 @@ GTM Documentation Automation - Complete Setup Guide
 
 ## Prerequisites
 - Google account with access to Google Sheets
-- Google Tag Manager account with admin access
+- Google Tag Manager account with minimum (Read) access
 - Basic familiarity with Google Tag Manager
 
 ## Step 1: Create a New Google Sheet
@@ -31,7 +31,7 @@ Click the "+" button to create a new sheet
 - Click the "+" (plus) icon next to Services
 - This opens the "Add a service" dialog box
 
-##Step 5: Add Tag Manager API
+## Step 5: Add Tag Manager API
 - In the service dialog, scroll down to find "Tag Manager API"
 - Click on "Tag Manager API"
 - Click the "Add" button in the bottom-right corner of the dialog
