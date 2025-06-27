@@ -1,5 +1,5 @@
 GTM Documentation Automation - Complete Setup Guide
-## Check out the YouTube guide where I walk through the steps below: http://bit.ly/44BMR7O
+## Check out the YouTube guide where I walk through the steps below: https://www.youtube.com/watch?v=_Q1P5ptLa2s
 
 ## Prerequisites
 - Google account with access to Google Sheets
